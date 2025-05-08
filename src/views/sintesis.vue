@@ -8,7 +8,7 @@
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Síntesis  sobre clasificación y gestión de documentos contables y no contables que incluye tipos de documentos (contables, no contables, extracontables y títulos valores), sus características, normativas de gestión documental como la Ley 594 de 2000, y elementos de los libros contables como su obligatoriedad, principios y normativa aplicable.")
       .col-auto
-        a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-5(:href="obtenerLink('/downloads/SintesisVF.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/bullets/icono-pdf.svg")
           .anexo__texto

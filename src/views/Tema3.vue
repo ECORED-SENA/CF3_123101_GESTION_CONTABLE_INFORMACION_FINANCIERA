@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los libros de información financiera están conformados por libros auxiliares y principales, su diligenciamiento debe efectuarse de forma cronológica, acorde a la normatividad vigente. Los libros contables están conformados por comprobantes de contabilidad base para la elaboración de estados financieros (Angulo, 2018). En coherencia con el Decreto ley 19 de 2012 (Secretaría del Senado, 2020), se registran en las Cámaras de comercio los libros de actas de socios y accionistas.
+        p.mb-0 Los libros de información financiera están conformados por libros auxiliares y principales, su diligenciamiento debe efectuarse de forma cronológica, acorde a la normatividad vigente. Los libros contables están conformados por comprobantes de contabilidad base para la elaboración de estados financieros (Angulo, 2018). En coherencia con el Decreto Ley 19 de 2012 (Secretaría del Senado, 2020), se registran en las Cámaras de comercio los libros de actas de socios y accionistas.
     
     p Según el Código Comercio (Secretaría del Senado, 2020. Art. 48 al 56):
 
@@ -32,7 +32,7 @@
         p.mb-0 El comprobante de contabilidad es el documento que debe elaborarse previamente al registro de cualquier operación y en el cual se indicará el número, fecha, origen, descripción y cuantía de la operación, así como las cuentas afectadas con el asiento. A cada comprobante se anexarán los documentos que lo justifiquen.
 
     .row.mb-5.justify-content-center
-      .col-lg-4.order-2
+      .col-lg-4.order-2.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
       .col-lg-8.order-1.mb-3.mb-lg-0
@@ -42,19 +42,19 @@
             li.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span 1
-              | Alterar en los asientos el orden o la fecha de las operaciones a que estos se refieren;
+              | Alterar en los asientos el orden o la fecha de las operaciones a que estos se refieren.
             li.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span 2
-              | Dejar espacios que faciliten intercalaciones o adiciones en el texto de los asientos o a continuación de estos;
+              | Dejar espacios que faciliten intercalaciones o adiciones en el texto de los asientos o a continuación de estos.
             li.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span 3
-              | Hacer interlineaciones, raspaduras o correcciones en los asientos. Cualquier error u omisión se salvará con un nuevo asiento en la fecha en que se advirtiere;
+              | Hacer interlineaciones, raspaduras o correcciones en los asientos. Cualquier error u omisión se salvará con un nuevo asiento en la fecha en que se advirtiere.
             li.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span 4
-              | Borrar o tachar en todo o en parte los asientos, y
+              | Borrar o tachar en todo o en parte los asientos.
             li.bg-color-white.p-1
               .lista-ol--cuadro__vineta
                 span 5
@@ -66,15 +66,15 @@
             .anexo__texto
               p <b>Enlace web.</b> Codigo comercio
     
-    .row.mb-5
+    .row
       .col-lg-3.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/3.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/3.svg", data-aos="zoom-in", style="max-width: 295px").mx-auto.my-4.my-lg-0
       .col-lg-9
-        p.mb-0 En tema tributario observemos el Estatuto Tributario (Secretaría del Senado, 2020. Art. 654 y 655):
+        p.mb-0 En tema tributarios observemos el Estatuto Tributario (Secretaría del Senado, 2020. Art. 654 y 655):
         p Nos menciona las sanciones relacionadas con la contabilidad y de clausura de establecimiento.
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
-          div(titulo=" Artículo 654: Habrá lugar a aplicar sanción por libros de contabilidad, en los siguientes casos")
+          div(titulo=" Artículo 654: Habrá lugar a aplicar sanción por libros de contabilidad, en los siguientes casos.")
             ol.lista-ol--cuadro.ms-3
               li.mb-0.p-1.d-flex
                 .lista-ol--cuadro__vineta
@@ -115,7 +115,7 @@
     #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 3.1 Conceptos, clasificación, formatos y comprobantes
     
-    .row.mb-5
+    .row.mb-4
       .col-lg-6.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/4.png", data-aos="zoom-in")
@@ -133,7 +133,7 @@
         figure
           img(src="@/assets/curso/tema3/5.svg", data-aos="zoom-in")
       .col-lg-8
-        .bg-color-6.p-1.mb-5(data-aos="fade-left")
+        .bg-color-6.p-1.mb-5(data-aos="fade-left").p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/6.svg", style="max-width: 90px").mx-auto
@@ -168,12 +168,12 @@
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
         h3.titulo-con-imagen__texto Libro diario
     
-    p.mb-5(data-aos="fade-left") Es un medio de prueba para las autoridades, registra el día a día las operaciones comerciales, registrando devengos contables, presenta como características sumas iguales.
+    p.mb-4(data-aos="fade-left") Es un medio de prueba para las autoridades, registra el día a día las operaciones comerciales, registrando devengos contables, presenta como características sumas iguales.
 
     .row.mb-3.justify-content-center
       .col-lg-3.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/7.svg", data-aos="zoom-in")
+          img(src="@/assets/curso/tema3/7.svg", data-aos="zoom-in", style="max-width: 295px").mx-auto.my-4.my-lg-0
       .col-lg-7.bg-color-10.p-4(data-aos="fade-left")
         h5.mb-4 Características
         ul.lista-ul--color
@@ -185,7 +185,7 @@
             p.mb-0 Códigos contables, aplica principio básico de la partida doble.
           li.mb-2.d-flex
             i.fas.fa-chevron-right.bg-color-17
-            p.mb-0 Presenta una columna de la cuenta auxiliar, generalmente trabajada a seis (6) Dígitos.
+            p.mb-0 Presenta una columna de la cuenta auxiliar, generalmente trabajada a seis (6) dígitos.
           li.mb-2.d-flex
             i.fas.fa-chevron-right.bg-color-17
             p.mb-0 Columna para los débitos.
@@ -194,10 +194,10 @@
             p.mb-0 Columna para créditos.
           li.mb-2.d-flexli.d-flex
             i.fas.fa-chevron-right.bg-color-17
-            p.mb-0 Sumas iguales..
+            p.mb-0 Sumas iguales.
 
     .row.mb-5.justify-content-center
-      .col-lg-3.mb-3.mb-lg-0
+      .col-lg-3.mb-3.mb-lg-0.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema3/8.svg", data-aos="zoom-in")
       .col-lg-7.bg-color-12.p-4(data-aos="fade-left")
@@ -225,7 +225,7 @@
     
     p.mb-5(data-aos="fade-left") Cada mes se debe realizar cierre del periodo con el fin de identificar el comportamiento financiero del periodo y, de esta forma, que los administradores puedan tomar decisiones.
 
-    .row.mb-5
+    .row
       .col-lg-4.mb-3.mb-lg-0.order-lg-2
         figure
           img(src="@/assets/curso/tema3/9.png", data-aos="zoom-in")
@@ -250,7 +250,7 @@
                 p.mb-0 Registra número de folio mayor, acorde al consecutivo, donde se realiza el resumen de la transacción económica.
               li.mb-2.d-flex
                 i.fas.fa-chevron-right.bg-color-17
-                p.mb-0 Codifica nombre de la cuenta contable utilizada.
+                p.mb-0 Codifica el nombre de la cuenta contable utilizada.
               li.mb-2.d-flex
                 i.fas.fa-chevron-right.bg-color-17
                 p.mb-0 Registra saldo del mes anterior, acorde al principio de partida doble y naturaleza de las cuentas débitos y créditos.
@@ -288,10 +288,10 @@
         ul.lista-ul--color.mb-5
           li.mb-2.d-flex
             i.fas.fa-chevron-right.bg-color-17
-            p.mb-0 Registro fecha de la solicitud.
+            p.mb-0 Registro de fecha de la solicitud.
           li.mb-2.d-flex
             i.fas.fa-chevron-right.bg-color-17
-            p.mb-0 Registro razón social y NIT.
+            p.mb-0 Registro de razón social y NIT.
           li.mb-2.d-flex
             i.fas.fa-chevron-right.bg-color-17
             p.mb-0 Indicar el tipo de inscripción.
@@ -303,9 +303,9 @@
             p.mb-0 Nombre y firma del representante legal de la empresa.
           li.mb-2.d-flex
             i.fas.fa-chevron-right.bg-color-17
-            p.mb-0 Nombre y firma del Revisor fiscal, anexando número de tarjeta profesional.
+            p.mb-0 Nombre y firma del revisor fiscal, anexando número de tarjeta profesional.
 
-        a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/3-Formato-Inscripción-de-libros-páginas-web.pdf')" target="_blank")
+        a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/3-formato-inscripcion-de-libros-paginas-web.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -354,7 +354,7 @@
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
-        h3.titulo-con-imagen__texto Libros de actas de Junta de vigilancia o Comité de control social y registro social
+        h3.titulo-con-imagen__texto Libros de actas de Junta de Vigilancia o Comité de Control Social y Registro Social
     
     p.mb-5(data-aos="fade-left") Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.  
 
@@ -362,7 +362,7 @@
       .col-lg-10.bg-color-12.p-4.tarjeta
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema3/15.png", style="max-width: 198px").mx-auto
+            img(src="@/assets/curso/tema3/15.png", style="max-width: 198px").mx-auto.mb-4.mb-lg-0
           .col-lg
             ul.lista-ul--color.mb-5
               li.mb-2.d-flex
@@ -379,7 +379,7 @@
                 p.mb-0 Registro de todas las hojas de los libros a registrar, acompañado de las firmas del representante legal de la sociedad.
     
     h5 Características:
-    p.mb-5 Según Circular 002 de 2016 de la Super Intendencia de Industria y Comercio (Cámara de Comercio de Santa Marta, 2020):
+    p.mb-5 Según Circular 002 de 2016 de la Superintendencia de Industria y Comercio (Cámara de Comercio de Santa Marta, 2020):
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-11")
       div(titulo="2.1.9.2 Respecto de los libros de comercio")
         p Una vez efectuada la inscripción de los libros sometidos a dicha formalidad, el secretario de la Cámara de Comercio insertará una constancia en la primera hoja del libro registrado que contendrá los siguientes datos:
@@ -450,41 +450,56 @@
 
     .row.justify-content-center.align-items-stretch.mb-3
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
+        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/17.svg", style="max-width: 90px").mx-auto
             .col-lg
-              h5.mb-2 Tablas de retención documental
+              .d-none.d-lg-block
+                h5.mb-2 Tablas de retención documental
+              .d-lg-none
+                h5.mb-2.text-center Tablas de retención documental
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
+        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/18.svg", style="max-width: 90px").mx-auto
             .col-lg
-              h5.mb-2 Programa de gestión documental
+              .d-none.d-lg-block
+                h5.mb-2 Programa de gestión documental
+              .d-lg-none
+                h5.mb-2.text-center Programa de gestión documental
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
+        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/19.svg", style="max-width: 90px").mx-auto
             .col-lg
-              h5.mb-2 Cuadros de clasificación documental
+              .d-none.d-lg-block
+                h5.mb-2 Cuadros de clasificación documental
+              .d-lg-none
+                h5.mb-2.text-center Cuadros de clasificación documental
     .row.justify-content-center.align-items-stretch.mb-3
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
+        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/20.svg", style="max-width: 90px").mx-auto
             .col-lg
-              h5.mb-2 Tablas de valoración documental
+              .d-none.d-lg-block
+                h5.mb-2 Tablas de valoración documental
+              .d-lg-none
+                h5.mb-2.text-center Tablas de valoración documental
       .col-lg-3.mb-3.mb-lg-0
-        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100
+        .bg-color-10.tarjeta.p-1(data-aos="fade-left").h-100.p-3
           .row.align-items-center
             .col-lg-auto
               img(src="@/assets/curso/tema3/21.svg", style="max-width: 90px").mx-auto
             .col-lg
-              h5.mb-2 Reglamento interno de archivo
+              .d-none.d-lg-block
+                h5.mb-2 Reglamento interno de archivo
+              .d-lg-none
+                h5.mb-2.text-center Reglamento interno de archivo
       .col-lg-3.mb-3.mb-lg-0
         a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/Resolucion_8934_2014.pdf')" target="_blank")
           .anexo__icono

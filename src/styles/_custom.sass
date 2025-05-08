@@ -145,7 +145,7 @@ figcaption
   align-items: center
 .titulo-con-imagen__imagen
   position: absolute
-  left: -30px
+  left: -20px
   width: 50px
 .titulo-con-imagen__texto
   margin: 0
@@ -216,3 +216,45 @@ figcaption
 .bloque-texto-a.color-secundario:before
   background-color: #E8E8E8
   left: 65%
+
+
+.acordion__titulo
+  h3
+    color: #fff !important
+.acordion__activo
+  .acordion__titulo
+    h3
+      color: #000 !important
+
+
+.text-right
+  text-align: right !important
+
+table th, 
+table td,
+table thead th
+  padding: 15px 10px !important
+
+
+// Carousel Styles
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: $color-acento-contenido
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #000
+    font-size: 16px
+
+  @media screen and (max-width: $bp-max-md)
+    background-color: transparent !important
+    box-shadow: none !important
+    font-size: 20px !important
+
+.bordes
+  border: 1px solid #CBD5E0 !important
+

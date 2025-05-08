@@ -9,8 +9,8 @@
     
     p.mb-4 Con regularidad, las empresas utilizan gran cantidad de información para ser procesada y utilizada diariamente en la toma de decisiones administrativas y financieras.
 
-    .row.mb-5
-      .col-lg-3.order-2
+    .row
+      .col-lg-3.order-2.d-none.d-lg-block
         figure
           img(src="@/assets/curso/tema2/2.svg", data-aos="zoom-in")
       .col-lg-9.order-1.mb-3.mb-lg-0
@@ -28,8 +28,8 @@
     
     .bg-full-width.bg-color-2
       .px-4.px-md-5.pb-md-3
-        .row.mb-5
-          .col-lg-4.order-2
+        .row
+          .col-lg-4.order-2.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema2/3.png", data-aos="zoom-in")
           .col-lg-8.order-1.mb-3.mb-lg-0
@@ -51,7 +51,13 @@
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p <b>Enlace web.</b> Normatividad sobre Gestión Documental Electrónica
-        
+              .row
+                .col-lg-6
+                  a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://www.archivogeneral.gov.co/normograma/" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p <b>Enlace web.</b> Normograma del Archivo General de la Nación
         separador
 
         #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -59,17 +65,17 @@
         
         p.mb-4 La forma en que se ordena uno o varios documentos es un proceso de disposición física. En un sentido estricto, es ordenar la documentación eligiendo qué documentos van primero y qué documentos van después. De esta forma, se organiza la gestión administrativa y la documental. Genera, en consecuencia, poder identificar una tarea de organización de documentos adecuadamente (Jiménez, 2003).
 
-        .row.mb-5
+        .row.mb-4
           .col-lg-4.mb-3.mb-lg-0
             figure
-              img(src="@/assets/curso/tema2/4.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/4.png", data-aos="zoom-in", style="max-width: 400px").mx-auto.my-4.my-lg-0
           .col-lg-5.mb-3.mb-lg-0
             .bg-color-6.h-100.p-4(data-aos="fade-left")
               p La organización documental de forma cronológica hace referencia a una distribución acorde con fechas, considerando año, mes y día. Esta forma de clasificación es importante en la categorización de expedientes (Jiménez, 2003).
               p.mb-0 Un ejemplo de ordenamiento es la utilizada en expedientes que, por su naturaleza, deben seguir abiertos para consultas. Por ejemplo, historias laborales o expedientes de alumnos. Su forma de clasificación sería: primer apellido, segundo apellido, segundo nombre y primer nombre (Jiménez, 2003).
-          .col-lg-3.mb-3.mb-lg-0
+          .col-lg-3.mb-3.mb-lg-0.d-none.d-lg-block
             figure
-              img(src="@/assets/curso/tema2/5.png", data-aos="zoom-in")
+              img(src="@/assets/curso/tema2/5.png", data-aos="zoom-in", style="max-width: 295px").mx-auto.my-4.my-lg-0
         
         .row.justify-content-center
           .col-lg-10
@@ -108,30 +114,39 @@
 
     .bg-full-width.bg-color-2
       .px-4.px-md-5.pb-md-3
-        .row.mb-5.justify-content-center
+        .row.justify-content-center
           .col-lg-9
             .row.justify-content-center.align-items-stretch.mb-3
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100
+                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/7.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5.mb-2 Archivo de gestión
+                      .d-none.d-lg-block
+                        h5.mb-2 Archivo de gestión
+                      .d-lg-none
+                        h5.mb-2.text-center Archivo de gestión
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100
+                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/8.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5.mb-2 Archivo central
+                      .d-none.d-lg-block
+                        h5.mb-2 Archivo central
+                      .d-lg-none
+                        h5.mb-2.text-center Archivo central
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100
+                .bg-color-6.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/9.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5.mb-2 Archivo histórico
+                      .d-none.d-lg-block
+                        h5.mb-2 Archivo histórico
+                      .d-lg-none
+                        h5.mb-2.text-center Archivo histórico
 
             .row.mb-5
               .col-lg-4.mb-3.mb-lg-0
@@ -161,63 +176,78 @@
                       ul.lista-ul--color
                         li.mb-0.d-flex
                           i.fas.fa-chevron-right.bg-color-17
-                          p.mb-0 Presentan código, representado por la clasificación que presenta la información-
+                          p.mb-0 Presentan código, representado por la clasificación que presenta la información.
                         li.mb-0.d-flex
                           i.fas.fa-chevron-right.bg-color-17
-                          p.mb-0 Presenta una columna de series documentales, donde van las diferentes clasificaciones de documentos, 
+                          p.mb-0 Presenta una columna de series documentales, donde van las diferentes clasificaciones de documentos. 
                         li.mb-0.d-flex
                           i.fas.fa-chevron-right.bg-color-17
-                          p.mb-0 Se clasifica comúnmente en archivos de gestión y archivo central, estipulando el tiempo que va a ser custodiado
+                          p.mb-0 Se clasifica comúnmente en archivos de gestión y archivo central, estipulando el tiempo que va a ser custodiado.
                         li.mb-0.d-flex
                           i.fas.fa-chevron-right.bg-color-17
                           p.mb-0 Actualmente, el procedimiento de conservación es la microfilmación, que presenta una columna de procedimientos, indicando los tiempos de custodia de los documentos.
         
         .row.mb-5
-          .col-lg-3.order-2.order-lg-1
+          .col-lg-3.order-2.order-lg-1.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema2/12.png", data-aos="zoom-in")
           .col-lg-9.order-1.order-lg-2.mb-3.mb-lg-0
             p(data-aos="fade-left") En las empresas comúnmente se utilizan códigos con ejemplos en números para establecer el orden jerárquico de la empresa:
             .row.justify-content-center.align-items-stretch.mb-3
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
+                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/13.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5.mb-2 Gerencia
+                      .d-none.d-lg-block
+                        h5.mb-2 Gerencia
+                      .d-lg-none
+                        h5.mb-2.text-center Gerencia
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
+                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/14.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5.mb-2 Recursos humanos
+                      .d-none.d-lg-block
+                        h5.mb-2 Recursos humanos
+                      .d-lg-none
+                        h5.mb-2.text-center Recursos humanos
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
+                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/15.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5.mb-2 Contabilidad
+                      .d-none.d-lg-block
+                        h5.mb-2 Contabilidad
+                      .d-lg-none
+                        h5.mb-2.text-center Contabilidad
             .row.justify-content-center.align-items-stretch.mb-3
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
+                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/16.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5.mb-2 Almacén
+                      .d-none.d-lg-block
+                        h5.mb-2 Almacén
+                      .d-lg-none
+                        h5.mb-2.text-center Almacén
               .col-lg-4.mb-3.mb-lg-0
-                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100
+                .bg-color-23.tarjeta.p-1(data-aos="fade-left").h-100.p-3
                   .row.align-items-center
                     .col-lg-auto
                       img(src="@/assets/curso/tema2/17.svg", style="max-width: 90px").mx-auto
                     .col-lg
-                      h5.mb-2 Gestión documental
+                      .d-none.d-lg-block
+                        h5.mb-2 Gestión documental
+                      .d-lg-none
+                        h5.mb-2.text-center Gestión documental
             p Para identificar qué dependencia genera la documentación para conservar la información, considere la siguiente tabla:
 
-            a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/3_Transparencia/10.6%20tablas%20de%20retencion/Trdjunio_2016.pdf" target="_blank")
+            a.anexo.mb-4.mb-lg-0.bg-color-8(href="https://www.archivogeneral.gov.co/agn/custom/711" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
