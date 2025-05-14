@@ -1274,10 +1274,10 @@
       //- estas clases tambien tienen un modificador --borde
       .tarjeta.bg-color-1.p-5(titulo="Artículo 772.")
         h4 Artículo 772.
-        p.mb-0 Artículo modificado por el artículo 1 de la Ley 1231 de 2008. El nuevo texto es el siguiente: Factura es un título valor que el vendedor o prestador del servicio podrá librar y entregar o remitir al comprador o beneficiario del servicio.
+        p.mb-0 Artículo modificado por el artículo 1 de la Ley 1231 de 2008. El nuevo texto es el siguiente: factura es un título valor que el vendedor o prestador del servicio podrá librar y entregar o remitir al comprador o beneficiario del servicio.
       .tarjeta.bg-color-1.p-5(titulo="Artículo 773")
         h4 Artículo 773.
-        p Artículo modificado por el artículo 2 de la Ley 1231 de 2008. El nuevo texto es el siguiente: Una vez que la factura sea aceptada por el comprador o beneficiario del servicio, se considerará, frente a terceros de buena fe, exenta de culpa que el contrato que le dio origen ha sido debidamente ejecutado en la forma estipulada en el título.
+        p Artículo modificado por el artículo 2 de la Ley 1231 de 2008. El nuevo texto es el siguiente: una vez que la factura sea aceptada por el comprador o beneficiario del servicio, se considerará, frente a terceros de buena fe, exenta de culpa que el contrato que le dio origen ha sido debidamente ejecutado en la forma estipulada en el título.
         p.mb-0 El comprador o beneficiario del servicio deberá aceptar, de manera expresa, el contenido de la factura, por escrito colocado en el cuerpo de esta o en documento separado, físico o electrónico. Igualmente, deberá constar el recibo de la mercancía o del servicio por parte del comprador del bien o beneficiario del servicio, en la factura y/o en la guía de transporte, según el caso, indicando el nombre, identificación o la firma de quien recibe, y la fecha de recibo. El comprador del bien o beneficiario del servicio no podrá alegar falta de representación o indebida representación por razón de la persona que reciba la mercancía o el servicio en sus dependencias, para efectos de la aceptación del título valor.
 
     h3.bg-color-4.tarjeta.p-3.mb-5 Bonos
