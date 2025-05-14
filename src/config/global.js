@@ -309,30 +309,30 @@ export default {
       link:
         'http://www.secretariasenado.gov.co/senado/basedoc/ley_1111_2006.html',
     },
-    {
-      referencia:
-        'Secretaría del Senado (2020, 10 de noviembre). Ley 1755 de 2015. ',
-      link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1755_2015.html',
-    },
-    {
-      referencia:
-        'Secretaria del Senado (2020, 15 de octubre). Código del Comercio: Decreto-Ley 410 de 1971. ',
-      link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
-    },
-    {
-      referencia:
-        'Secretaría del Senado (2020, 5 de noviembre). Estatuto tributario. ',
-      link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/estatuto_tributario.html',
-    },
-    {
-      referencia:
-        'Secretaría del Senado (2020, 6 de noviembre). Decreto-Ley 12 de 2012. ',
-      link:
-        'http://www.secretariasenado.gov.co/senado/basedoc/decreto_0019_2012.html',
-    },
+    // {
+    //   referencia:
+    //     'Secretaría del Senado (2020, 10 de noviembre). Ley 1755 de 2015. ',
+    //   link:
+    //     'http://www.secretariasenado.gov.co/senado/basedoc/ley_1755_2015.html',
+    // },
+    // {
+    //   referencia:
+    //     'Secretaria del Senado (2020, 15 de octubre). Código del Comercio: Decreto-Ley 410 de 1971. ',
+    //   link:
+    //     'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
+    // },
+    // {
+    //   referencia:
+    //     'Secretaría del Senado (2020, 5 de noviembre). Estatuto tributario. ',
+    //   link:
+    //     'http://www.secretariasenado.gov.co/senado/basedoc/estatuto_tributario.html',
+    // },
+    // {
+    //   referencia:
+    //     'Secretaría del Senado (2020, 6 de noviembre). Decreto-Ley 12 de 2012. ',
+    //   link:
+    //     'http://www.secretariasenado.gov.co/senado/basedoc/decreto_0019_2012.html',
+    // },
     {
       referencia:
         'Sinisterra V., Polanco L., y Henao H. (2011). Contabilidad: sistema de información para las organizaciones. Mc. Graw Hill.  ',
