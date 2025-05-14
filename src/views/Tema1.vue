@@ -358,12 +358,7 @@
               .lista-ol--cuadro__vineta
                 span d
               | Recibos de pagos de matrículas y pensiones emitidas por establecimientos de educación reconocidos por el gobierno.
-          p Para profundizar en las definiciones, características y diligenciamiento de los diferentes documentos, por favor revise el libro contabilidad financiera correlacionado con Normas Internacionales de Información Financiera NIIF, capítulo número 12, en el siguiente enlace:
-          a.anexo.mb-4.mb-lg-0.bg-color-8(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/?il=8047" target="_blank")
-            .anexo__icono
-              img(src="@/assets/template/icono-link.svg")
-            .anexo__texto
-              p <b>Enlace web.</b> Biblioteca Digital del SENA
+
 
     .bg-full-width.bg-fondo-2
       .px-4.px-md-5.pb-md-3
