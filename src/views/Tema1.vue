@@ -338,7 +338,7 @@
     .row.mb-5.justify-content-center
       .col-lg-3.pe-lg-0.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/tema1/17.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/17b.png", data-aos="zoom-in")
       .col-lg-7.ps-lg-0
         .bg-color-23.h-100.p-4
           ol.lista-ol--cuadro
