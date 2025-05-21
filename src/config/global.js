@@ -216,18 +216,13 @@ export default {
     {
       referencia:
         'Archivo General de la Nación Colombia (2020, 16 de noviembre). Tabla de retención documental TRD. ',
-      link:
-        'https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/3_Transparencia/10.6%20tablas%20de%20retencion/Trdjunio_2016.pdf',
+      link: 'https://www.archivogeneral.gov.co/agn/custom/711',
     },
     {
       referencia:
         'Bancolombia (2020, 16 de noviembre). Aprende a leer tu extracto. ',
       link:
         'https://www.grupobancolombia.com/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-una-tarjeta-credito/como-leer-extracto',
-    },
-    {
-      referencia: 'BBVA (2020, 16 de noviembre). Ejemplo de cheque. ',
-      link: 'https://www.bbva.com.py/public/formato-cheques-2017.jsp',
     },
     {
       referencia:
@@ -239,7 +234,7 @@ export default {
       referencia:
         'Cámara de Comercio de Santa Marta (2020, 15 de noviembre). Circular 002 de 2016. ',
       link:
-        'https://www.ccsm.org.co/normativas-del-registro-nacional-de-turismo/circular-002-de-2016.html',
+        'https://bibliotecadigital.ccb.org.co/server/api/core/bitstreams/0be4b0f8-cc58-4f4f-8a98-36240c69f652/content',
     },
     {
       referencia:
@@ -271,12 +266,6 @@ export default {
         'Gerencie. (2020, 16 de noviembre). Formato en Excel para liquidar nómina. ',
       link:
         'https://www.gerencie.com/formato-en-excel-para-liquidar-la-nomina.html',
-    },
-    {
-      referencia:
-        'Itaú (2020, 16 de noviembre). Prospecto de información: tercera emisión de bonos subordinados hasta por $140,000,000,000 Banco Santander Colombia S.A',
-      link:
-        'https://www.itau.co/documents/10282/1317643/78ProspectoBancoSantanderColombia.pdf',
     },
     {
       referencia:
@@ -341,7 +330,8 @@ export default {
     {
       referencia:
         'Sistema Único de Información Normativa (2020, 10 de noviembre). Decreto 2242 de 2015. ',
-      link: 'http://www.suin.gov.co/viewDocument.asp?id=30033048',
+      link:
+        'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Decretos/30033048',
     },
     {
       referencia:
@@ -358,12 +348,6 @@ export default {
       referencia:
         'Tejeda, A. (2017). Manual práctico de contabilidad. Pirámide.',
       link: '',
-    },
-    {
-      referencia:
-        'Tiendas Jumbo. (2020, 16 de noviembre). Formato transferencia de fondos. ',
-      link:
-        'https://proveedores.tiendasjumbo.co/gateweb/base/documentos/Formato_transferencia_de_fondos.pdf',
     },
     {
       referencia:
