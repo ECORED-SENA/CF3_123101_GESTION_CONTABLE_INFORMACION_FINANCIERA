@@ -103,7 +103,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
-                      p <b>Anexo.</b> Cartilla de ordenacion documental.
+                      p <b>Anexo.</b> Cartilla de ordenacion documental
     
     separador
 

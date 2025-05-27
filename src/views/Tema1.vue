@@ -221,7 +221,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p <b>Enlace web.</b> Secretaría del Senado. Código de Comercio. Cap. II.
+                p <b>Enlace web.</b> Secretaría del Senado. Código de Comercio. Cap. II
         
       .col-lg-5.order-1.mb-3.mb-lg-0
         figure
@@ -441,7 +441,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p <b>Enlace web.</b> Secretaría del Senado. Código de Comercio. Cap. II.
+                  p <b>Enlace web.</b> Formato Documento Equivalente a Factura V3
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -652,7 +652,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p <b>Enlace web.</b> Dirección de Impuestos y Aduanas Nacionales (DIAN).
+                p <b>Enlace web.</b> Dirección de Impuestos y Aduanas Nacionales (DIAN)
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -806,7 +806,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p <b>Enlace web.</b>  Consignaciones bancarias.
+            p <b>Enlace web.</b>  Consignaciones bancarias
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
