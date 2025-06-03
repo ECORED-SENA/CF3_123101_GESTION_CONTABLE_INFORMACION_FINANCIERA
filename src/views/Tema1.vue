@@ -212,11 +212,11 @@
         p Para mayor profundización en el tema se sugiere revisar los siguientes enlaces:
         .row
           .col-lg-10
-            a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/266_4capitulo_ii_titulos_valores.pdf')" target="_blank")
+            a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/Anexo_1_Estudio_Regimen_Legal_Colombiano.pdf')" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <b>Anexo.</b> Sistema general de títulos valores en la República de Colombia
+                p #[b Anexo 1] - Estudio Régimen Legal Colombiano
             a.anexo.mb-4.mb-lg-0.bg-color-8(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr020.html" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
@@ -546,7 +546,7 @@
               img(src="@/assets/curso/tema1/30.png", data-aos="zoom-in", style="max-width: 295px").mx-auto
 
           .col-lg-9.order-1.mb-3.mb-lg-0
-            p(data-aos="fade-left") Es un medio de pago convencional, donde se utiliza la figura de tarjetahabiente, utilizando un datáfono para recibir pagos. Es una forma segura para no manejar efectivo; el banco o entidad financiera cobra a la empresa una comisión por el uso de este medio electrónico. Cuando se realiza la transacción se debe guardar copia de la transacción, y anexar a la venta, como soporte.
+            p(data-aos="fade-left") Es un medio de pago convencional, donde se utiliza la figura de tarjetahabiente, utilizando un datáfono para recibir pagos. Es una forma segura para no manejar efectivo; el banco o entidad financiera cobra a la empresa una comisión por el uso de este medio electrónico. Cuando se realiza la transacción, se debe guardar copia de la transacción, y anexar a la venta, como soporte.
         
             .row.mb-5.justify-content-center
               .col-lg-4.mb-3.mb-lg-0
@@ -555,18 +555,18 @@
               .col-lg-8.bg-color-3.p-4.tarjeta(data-aos="fade-left")
                 h5.mb-4 Características
                 p.mb-5 Debe definir la ciudad y el nombre del establecimiento comercial, fecha y plazos de pagos, es decir, el número de cuotas para ser pagadas por él cuentahabiente, si es tarjeta de crédito. Si es cuenta de ahorro, la transacción descuenta de forma automática y por medio de correo electrónico se notifica al cliente; comúnmente, el reporte es enviado al dispositivo móvil del cliente por parte de la entidad financiera.
-                a.anexo.bg-color-8(:href="obtenerLink('/downloads/soportes-contables-en-colombia.pdf')" target="_blank")
+                a.anexo.bg-color-8(:href="obtenerLink('/downloads/Anexo_2_Documentos_Soportes_Colombia.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p <b>Anexo.</b> Comprobante de Ingreso o comprobante de caja
+                    p #[b Anexo 2] - Documentos Soportes Contables de Colombia
 
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/componentes/1.png")
             h3.titulo-con-imagen__texto Nómina
 
-        p.mb-5(data-aos="fade-left") Es un soporte contable en el cual la empresa respalda el pago de empleados por concepto de sueldos a los colaboradores de la empresa de forma mensual, quincenal, cada diez días o, como se haya pactado el pago de sueldos.
+        p.mb-5(data-aos="fade-left") Es un soporte contable en el cual la empresa respalda el pago de empleados por concepto de sueldos a los colaboradores de la empresa de forma mensual, quincenal, cada diez días o, como se haya pactado, el pago de sueldos.
         .row.mb-5.justify-content-center
           .col-lg-4.mb-3.mb-lg-0
             figure
@@ -806,7 +806,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p <b>Enlace web.</b>  Consignaciones bancarias
+            p <b>Enlace web.</b> Documentos comerciales. Consignaciones bancarias
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -888,7 +888,7 @@
             ul.lista-ul--color.mb-3.ms-3
               li.d-flex
                 i.fas.fa-chevron-right.bg-color-17
-                p.mb-0 Documento utilizado para reconocer cambios en las facturas,evidencia dineros.
+                p.mb-0 Documento utilizado para reconocer cambios en las facturas, evidencia dineros.
               li.d-flex
                 i.fas.fa-chevron-right.bg-color-17
                 p.mb-0 Devueltos al cliente por inconformidades.
@@ -1171,7 +1171,7 @@
                 li.bg-color-white.p-1.d-flex
                   .lista-ol--cuadro__vineta
                     span 1
-                  | La mención del derecho que en el título se incorpora
+                  | La mención del derecho que en el título se incorpora.
                 li.mb-0.bg-color-white.p-1.d-flex
                   .lista-ol--cuadro__vineta
                     span 2
@@ -1195,7 +1195,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
-                      p <b>Enlace web.</b> Letra de cambio
+                      p <b>Enlace web.</b> Documentos Comerciales. Letra de cambio
 
         h3.bg-color-4.tarjeta.p-3.mb-5 Pagaré a la orden
 
@@ -1249,15 +1249,15 @@
                     li.mb-0.p-1.d-flex
                       .lista-ol--cuadro__vineta
                         span 1
-                      | Dentro de los quince días a partir de su fecha, si fueren pagaderos en el mismo lugar de su expedición;
+                      | Dentro de los quince días a partir de su fecha, si fueren pagaderos en el mismo lugar de su expedición.
                     li.mb-0.p-1.d-flex
                       .lista-ol--cuadro__vineta
                         span 2
-                      | Dentro de un mes, si fueren pagaderos en el mismo país de su expedición, pero en lugar distinto al de ésta;
+                      | Dentro de un mes, si fueren pagaderos en el mismo país de su expedición, pero en lugar distinto al de ésta.
                     li.mb-0.p-1.d-flex
                       .lista-ol--cuadro__vineta
                         span 3
-                      | Dentro de tres meses, si fueren expedidos en un país latinoamericano y pagaderos en algún otro país de América Latina, y
+                      | Dentro de tres meses, si fueren expedidos en un país latinoamericano y pagaderos en algún otro país de América Latina.
                     li.mb-0.p-1.d-flex
                       .lista-ol--cuadro__vineta
                         span 4
@@ -1291,7 +1291,7 @@
       .col-lg-7
         .bg-color-12.p-4.h-100(data-aos="fade-left")
           h5.mb-5 Títulos emitidos por entidades públicas: 
-          p 4.1.	Copia de la Resolución y otros actos administrativos, por medio de los cuales el Ministerio de Hacienda y Crédito Público y demás organismos competentes autorizaron la respectiva emisión;
+          p 4.1.	Copia de la Resolución y otros actos administrativos, por medio de los cuales el Ministerio de Hacienda y Crédito Público y demás organismos competentes autorizaron la respectiva emisión.
           p 4.2.	Copia de la justificación técnica, económica y social de la emisión, su plan de financiación por fuentes de recursos y el cronograma de gastos anuales en moneda local y extranjera. 
           p.mb-0 4.3.	Las condiciones financieras y las garantías de los valores emitidos por las entidades públicas deberán sujetarse a lo dispuesto en las Resoluciones Externas No. 1 y No. 11 de 1993 de la Junta Directiva del Banco de la República, o a las normas que las modifiquen o sustituyan. 
     
@@ -1449,10 +1449,7 @@
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
-                  p <b>Enlace web.</b> Pedido
-
-
-
+                  p <b>Enlace web.</b> Documentos Comerciales. Pedido
 
 </template>
 

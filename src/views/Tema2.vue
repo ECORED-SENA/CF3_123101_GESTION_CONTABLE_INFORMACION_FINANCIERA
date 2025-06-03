@@ -36,7 +36,7 @@
             p(data-aos="fade-left").mb-5 En Colombia, la gestión documental se rige bajo varias leyes, normas que orientan a las empresas sobre cómo desarrollar la organización de los archivos. En este sentido, se aprobó la Ley 594 del 2000, conocida como Ley General de Archivos, estableciendo todos los criterios para conservar documentos (Archivo General de la Nación Colombia, 2020).
         
             .bg-color-26.p-4.tarjeta(data-aos="fade-left")
-              p Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando al siguiente enlace:
+              p Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando al siguientes enlaces:
 
               .row
                 .col-lg-6
@@ -99,11 +99,11 @@
                     li.mb-3.d-flex
                       i.fas.fa-chevron-right.bg-color-17
                       p.mb-0 Órdenes de pago.  
-                  a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/CARTILLA_ORDENACION_DOCUMENTAL.pdf')" target="_blank")
+                  a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/Anexo_3_Cartilla_Ordenamiento_Documental.pdf')" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
-                      p <b>Anexo.</b> Cartilla de ordenacion documental
+                      p #[b Anexo 3] - Cartilla Ordenamiento Documental
     
     separador
 
@@ -263,9 +263,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema2/18.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Cada vez que progresan las tecnologías, se aplican al control documental de la información. Para ser implementado en una organización, debe existir la voluntad de la administración para destinar recursos para la implementación de las nuevas tecnologías al servicio de la gestión documental. En ese sentido, existen en el mercado programas que hacen más efectivos los procesos, mejorando el proceso en beneficio de las organizaciones. 
-
-
+        p.mb-0 Cada vez que progresan las tecnologías, se aplican al control documental de la información. Para ser implementado en una organización, debe existir la voluntad de la administración para destinar recursos para la implementación de las nuevas tecnologías al servicio de la gestión documental. En ese sentido, existen en el mercado programas que hacen más efectivos los procesos, mejorando el proceso en beneficio de las organizaciones.
 
 </template>
 

@@ -20,7 +20,7 @@ export default {
       tema: 'Documentos contables y no contables',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave relacionados con los documentos contables, no contables y títulos valores, así como su clasificación, características, normatividad aplicable y correcta gestión documental en entornos empresariales..',
+        '<b> Objetivo:</b> Identificar los conceptos clave relacionados con los documentos contables, no contables y títulos valores, así como su clasificación, características, normatividad aplicable y correcta gestión documental en entornos empresariales.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!..',
       titulo_reprobado: 'VUELVA A INTENTARLO..',
@@ -324,7 +324,7 @@ export default {
               esCorrecta: false,
             },
             {
-              id: 'b',
+              id: 'd',
               texto: 'Alfabética.',
               esCorrecta: false,
             },

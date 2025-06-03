@@ -108,7 +108,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
               .anexo__texto
-                p <b>Enlace web.</b> Conceptos 2018
+                p <b>Enlace web.</b> CTCP. Conceptos 2018
     
     separador
 
@@ -120,7 +120,7 @@
         figure
           img(src="@/assets/curso/tema3/4.png", data-aos="zoom-in")
       .col-lg-6.order-lg-1
-        p(data-aos="fade-left") Los libros de contabilidad deben respetar los principios básicos de contabilidad. Ser diligenciados y presentados en el momento que las autoridades de inspección los soliciten, so pena de sanciones por no llevar libros de contabilidad. Una vez solicitados dichos libros de contabilidad por parte de la administración de impuestos y aduanas nacionales DIAN, después de cinco días sin realizar la entrega efectiva, se generará una sanción (Angulo, 2018).
+        p(data-aos="fade-left") Los libros de contabilidad deben respetar los principios básicos de contabilidad. Ser diligenciados y presentados en el momento que las autoridades de inspección los soliciten, con la pena de sanciones por no llevar libros de contabilidad. Una vez solicitados dichos libros de contabilidad por parte de la administración de impuestos y aduanas nacionales DIAN, después de cinco días sin realizar la entrega efectiva, se generará una sanción (Angulo, 2018).
     
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg-auto
@@ -152,7 +152,7 @@
             p.mb-0 Libro de actas de asambleas.
           li.mb-0.d-flex
             i.fas.fa-chevron-right.bg-color-17
-            p.mb-0 Libros de actas de Consejo de Administración o Junta Directiva
+            p.mb-0 Libros de actas de Consejo de Administración o Junta Directiva.
           li.mb-0.d-flex
             i.fas.fa-chevron-right.bg-color-17
             p.mb-0 Libro de actas de Junta de Vigilancia o Comité de Control Social. 
@@ -216,7 +216,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
-            p <b>Enlace web.</b> Libro Diario General
+            p <b>Enlace web.</b> El contador. Libro Diario General
         
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -284,7 +284,7 @@
         figure
           img(src="@/assets/curso/tema3/10.png", data-aos="zoom-in")
       .col-lg-7
-        p(data-aos="fade-left") Diligenciamiento
+        p(data-aos="fade-left") #[b Diligenciamiento]
         ul.lista-ul--color.mb-5
           li.mb-2.d-flex
             i.fas.fa-chevron-right.bg-color-17
@@ -305,11 +305,11 @@
             i.fas.fa-chevron-right.bg-color-17
             p.mb-0 Nombre y firma del revisor fiscal, anexando número de tarjeta profesional.
 
-        a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/3-formato-inscripcion-de-libros-paginas-web.pdf')" target="_blank")
+        a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/Anexo_4_Formato_Inscripcion.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <b>Anexo.</b> Formato Inscripción De Libros Páginas Web
+            p #[b Anexo 4] - Formato Inscripción de Libros Páginas Web
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -427,19 +427,19 @@
                 p.mb-0 Nombre del libro auxiliar.
               li.mb-2.d-flex
                 i.fas.fa-chevron-right.bg-color-17
-                p.mb-0 Fecha de la transacción
+                p.mb-0 Fecha de la transacción.
               li.mb-2.d-flex
                 i.fas.fa-chevron-right.bg-color-17
-                p.mb-0 Detalle de la transacción
+                p.mb-0 Detalle de la transacción.
               li.mb-2.d-flex
                 i.fas.fa-chevron-right.bg-color-17
-                p.mb-0 Débitos
+                p.mb-0 Débitos.
               li.mb-2.d-flex
                 i.fas.fa-chevron-right.bg-color-17
-                p.mb-0 Créditos
+                p.mb-0 Créditos.
               li.mb-2.d-flex
                 i.fas.fa-chevron-right.bg-color-17
-                p.mb-0 Saldo
+                p.mb-0 Saldo.
 
     .titulo-con-imagen.mb-5(data-aos="fade-right")
       .titulo-con-imagen__fondo
@@ -501,14 +501,11 @@
               .d-lg-none
                 h5.mb-2.text-center Reglamento interno de archivo
       .col-lg-3.mb-3.mb-lg-0
-        a.anexo.mb-4.bg-color-8(:href="obtenerLink('/downloads/Resolucion_8934_2014.pdf')" target="_blank")
+        a.anexo.mb-4.bg-color-8.h-100(data-aos="fade-left")(:href="obtenerLink('/downloads/Anexo_5_Resolucion_8934_2014.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p <b>Anexo.</b> Resolucion  8934 de 2014
-
-
-          
+            p #[b Anexo 5] - Resolución 8943 - 2014
 
 </template>
 
