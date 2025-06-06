@@ -36,7 +36,7 @@
             p(data-aos="fade-left").mb-5 En Colombia, la gestión documental se rige bajo varias leyes, normas que orientan a las empresas sobre cómo desarrollar la organización de los archivos. En este sentido, se aprobó la Ley 594 del 2000, conocida como Ley General de Archivos, estableciendo todos los criterios para conservar documentos (Archivo General de la Nación Colombia, 2020).
         
             .bg-color-26.p-4.tarjeta(data-aos="fade-left")
-              p Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando al siguientes enlaces:
+              p Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando a los siguientes enlaces:
 
               .row
                 .col-lg-6
