@@ -371,8 +371,8 @@
         p.mb-5(data-aos="fade-left") Es un documento similar a la factura, no es obligatorio, pero se debe tener como soporte. Algunos ejemplos se encuentran en empresas inscritas al régimen simple que no tienen obligación de facturar:
         .carousel-bg
           .row.justify-content-center.mb-5.align-items-center
-            .col-lg-8.mb-3.mb-lg-0.order-lg-2
-              SlyderF(columnas="col-12 col-lg-6")
+            .col-lg-9.mb-3.mb-lg-0.order-lg-2
+              SlyderF(columnas="col-md-6 col-xl-4")
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/19.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   p Comerciantes minoristas, siempre y cuando no excedan los topes de venta. Algunos ejemplos son: los comerciantes de productos del agro sin transformación y cuya cuantía no supere los niveles permitidos.
@@ -385,9 +385,9 @@
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/22.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   p Tiquetes de transporte de pasajero de forma aérea.
-            .col-lg-4.order-lg-1.d-none.d-lg-block
+            .col-lg-3.order-lg-1.d-none.d-lg-block
               figure
-                img(src='@/assets/curso/tema1/18.png', alt='Imagen de apoyo', data-aos="zoom-in")
+                img(src='@/assets/curso/tema1/18.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
       
     .bg-full-width.bg-color-24
       .px-4.px-md-5.pb-md-3

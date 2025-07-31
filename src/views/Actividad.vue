@@ -20,10 +20,10 @@ export default {
       tema: 'Documentos contables y no contables',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Identificar los conceptos clave relacionados con los documentos contables, no contables y títulos valores, así como su clasificación, características, normatividad aplicable y correcta gestión documental en entornos empresariales.',
+        '<b> Objetivo:</b> identificar los conceptos clave relacionados con los documentos contables, no contables y títulos valores, así como su clasificación, características, normatividad aplicable y correcta gestión documental en entornos empresariales.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!..',
-      titulo_reprobado: 'VUELVA A INTENTARLO..',
+      titulo_aprobado: '¡BUEN TRABAJO!',
+      titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
           id: 1,
@@ -59,7 +59,7 @@ export default {
           id: 2,
           texto:
             '¿Cuál es la finalidad principal de los documentos no contables?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -89,7 +89,7 @@ export default {
         {
           id: 3,
           texto: '¿Cuál de los siguientes es un título valor?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -120,7 +120,7 @@ export default {
           id: 4,
           texto:
             '¿Qué documento se utiliza para registrar el pago a empleados?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -151,7 +151,7 @@ export default {
           id: 5,
           texto:
             '¿Cuál documento registra las operaciones contables día a día?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -213,7 +213,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál es un requisito del pagaré según el Código de Comercio?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -243,7 +243,7 @@ export default {
         {
           id: 8,
           texto: '¿Cuál es un ejemplo de documento equivalente?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -274,7 +274,7 @@ export default {
           id: 9,
           texto:
             '¿Qué documento sirve para reconocer valores cobrados erróneamente a un cliente?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -285,17 +285,17 @@ export default {
             {
               id: 'b',
               texto: 'Comprobante de contabilidad.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
               texto: 'Recibo de caja menor.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'b',
               texto: 'Cheque.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -305,7 +305,7 @@ export default {
           id: 10,
           texto:
             '¿Qué tipo de organización documental ordena la información por temas?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -357,7 +357,7 @@ export default {
           id: 12,
           texto:
             'La remisión es un documento contable que genera asiento contable.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -378,7 +378,7 @@ export default {
           id: 13,
           texto:
             'Las notas de contabilidad se utilizan para ajustes internos que no tienen soporte externo.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -399,7 +399,7 @@ export default {
           id: 14,
           texto:
             'El archivo histórico es una etapa del ciclo vital documental.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -420,7 +420,7 @@ export default {
           id: 15,
           texto:
             'El cheque es un título valor que no requiere ser expedido en chequera.',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
